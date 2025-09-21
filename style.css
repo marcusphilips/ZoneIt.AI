@@ -1,3 +1,60 @@
 h1 {
-    color:blueviolet
+	margin: 0;
+	padding: 0.5em 0;
+	font-size: 2em;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+#sticky-header {
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+#sticky-header nav {
+	display: flex;
+	gap: 1.5em;
+	margin-top: 0.5em;
+}
+
+#sticky-header a {
+	text-decoration: none;
+	color: #333;
+	padding: 0.25em 0.5em;
+	border-radius: 3px;
+	transition: background 0.2s;
+}
+
+#sticky-header a:hover {
+	background: #ddd;
+}
+
+main {
+	padding: 2em 0;
+}
+
+section {
+	margin-bottom: 2em;
+}
+
+footer {
+	background: #eee;
+	border-top: 1px solid #ddd;
+	text-align: center;
+	padding: 1em 0;
+	font-size: 0.95em;
+	color: #555;
 }
